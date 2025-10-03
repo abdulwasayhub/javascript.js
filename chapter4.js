@@ -101,4 +101,17 @@ console.log(marvelHeroes.slice(1, 3))
 //Splice
 let arr = [1, 2, 3, 4, 5, 6, 7]
 arr.splice(2, 0, 101)
+
 console.log(arr)
+
+//Practice
+//array to store companies -> 'Bloomberg', 'Microsoft', 'Uber', 'Google', 'IBM', 'Neflix'
+
+let companies = ['Bloomberg', 'Microsoft', 'Uber', 'Google', 'IBM', 'Neflix']
+//Remove the first comapany
+companies.shift()
+//Remove Uber and Add Ola in its space
+companies.splice(1, 1, 'Ola')
+//Add Amazon at end
+companies.push('Amazon')
+console.log(companies)
